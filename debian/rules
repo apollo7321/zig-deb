@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	# nothing to compile
+
+override_dh_auto_install:
+	mkdir -p debian/zig/usr/lib/zig
+	cp -r doc/* lib/* LICENSE README.md zig debian/zig/usr/lib/zig

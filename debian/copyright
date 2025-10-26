@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zig
+Source: https://ziglang.org/
+
+Files: *
+Copyright: 2009-2025, Zig contributors
+License: MIT

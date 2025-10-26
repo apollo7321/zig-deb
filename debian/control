@@ -1,0 +1,13 @@
+Source: zig
+Maintainer: Apollo <apollo@deb>
+Section: devel
+Priority: optional
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13)
+
+Package: zig
+Architecture: amd64
+Depends: ${misc:Depends}
+Description: Zig programming language compiler and toolchain
+ The Zig programming language is a general-purpose programming language
+ and toolchain for maintaining robust, optimal, and reusable software.
